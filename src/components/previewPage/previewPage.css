@@ -1,0 +1,39 @@
+#preview-pane {
+    width: 100%;
+}
+
+#preview-pane table {
+    width: 100%;
+    font-size: 2.5vh;
+    color: white;
+    font-family: cursive;
+}
+
+#preview-pane table td {
+    width: 40%;
+    /* border: 1px solid white; */
+}
+
+.id-pic {
+    width: 30%;
+    height:30%;
+}
+
+.closeButton {
+    position: relative;
+    float: right;
+    margin: 5px;
+    left: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px;
+    background: orange;
+    outline:none;
+}
+
+.closeButton:hover {
+    transition: transform 1s ease-in-out;
+    transform: rotateZ(90deg);
+    background: grey;
+}
